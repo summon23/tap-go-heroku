@@ -7,7 +7,8 @@ const METHODTYPE = 'POST';
 const Joi = require('joi');
 const bcrypt = require('bcryptjs');
 const config = require('../../config');
-config.loadEnvironment();
+
+// config.loadEnvironment();
 
 const registerNewUser = Promise.coroutine(function* (request, responseHandler, next) {
     let { 

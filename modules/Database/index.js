@@ -8,8 +8,9 @@ const mongodb = require('mongodb');
 const modelPath = './model';
 const Helper = require('../../utils/helper');
 const config = require('../../config');
+
 // Load Env File
-config.loadEnvironment();
+// config.loadEnvironment();
 
 const models = {};
 let modelsInitialized = false;

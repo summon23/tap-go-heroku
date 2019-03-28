@@ -10,8 +10,10 @@ const randtoken = require('rand-token');
 const Auth = require('../../auth');
 const config = require('../../config');
 const bcrypt = require('bcryptjs');
+
 // Load Env File
-config.loadEnvironment();
+// config.loadEnvironment();
+
 const ERROR_CODE = process.env.ERROR_CODE;
 const SUCCESS_CODE = process.env.SUCCESS_CODE;
 
