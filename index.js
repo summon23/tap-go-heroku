@@ -7,7 +7,7 @@ const cors = require('cors');
 const core = require('./method');
 const config = require('./config');
 // Load Env File
-config.loadEnvironment();
+// config.loadEnvironment();
 const PORT = process.env.PORT;
 
 app.use(bodyParser.json());       // to support JSON-encoded bodies
